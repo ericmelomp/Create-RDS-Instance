@@ -7,5 +7,5 @@ resource "aws_db_instance" "default" {
   username             = "root"
   password             = var.db_password
   skip_final_snapshot  = true
-  db_subnet_group_name = ""
+  db_subnet_group_name = "?"
 }
